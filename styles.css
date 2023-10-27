@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+
+.main {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    border: 5px solid;
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
