@@ -31,3 +31,6 @@ body {
 .choices button:hover{
     background-color: rgba(0, 0, 255, 0.568);
 }
+#playerDisplay {
+    font-size: 5rem;
+}
