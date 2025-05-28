@@ -34,12 +34,15 @@ body {
 #playerDisplay, #computerDisplay {
     font-size: 5rem;
 }
-#resultDisplay {
-    margin: 50px 0;
+
+.playerScore, .computerScore {
+    font-size: 3rem;
+
 }
-.greenText {
+
+.greenText, #playerScoreDisplay {
     color: rgb(174, 223, 102);
 }
-.redText {
+.redText, #computerScoreDisplay {
     color: rgb(255, 0, 0);
 }
