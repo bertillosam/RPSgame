@@ -30,4 +30,15 @@ function playerChoice(playerChoice){
     playerDisplay.textContent = `Player: ${playerChoice}`;
     computerDisplay.textContent = `Bot AI: ${computerChoice}`;
     resultDisplay.textContent = result;
+
+    resultDisplay.classList.remove("greenText", "redText");
+
+    switch(result){
+        case "You Win":
+            resultDisplay.classList.add("greenText");
+            break;
+        case "You Lose!":
+            resultDisplay.classList.add("redText");
+            break;
+    }
 }
